@@ -6,9 +6,9 @@ Pour ce faire, l'**Utilisateur** doit tout d'abord se rendre sur une page permet
 
 À la soumission du formulaire, l'**Utilisateur** est connecté si le système valide les valeurs saisies.
 
-Si l'**Utilisateur** ne se souvient plus de ses identifiants, ***se référer à l'extension "mot de passe oublié"***.
+Si l'**Utilisateur** ne se souvient plus de ses identifiants, **se référer à l'extension "mot de passe oublié"**.
 
-Si l'**Utilisateur** n'a pas encore de compte, ***se référer à l'extension "inscription"***.
+Si l'**Utilisateur** n'a pas encore de compte, **se référer à l'extension "inscription"**.
 
 À noter que toutes les actions menées avant la connexion doivent être consignées dans un cookie afin d'en garantir la bonne sauvegarde et permettre l'exploitation de ces informations ultérieurement.
 
