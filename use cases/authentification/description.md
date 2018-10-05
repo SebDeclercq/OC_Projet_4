@@ -14,4 +14,4 @@ Si l'**Utilisateur** n'a pas encore de compte, ***se référer à l'extension "i
 
 ## Diagramme de cas
 
-![diagramme du use case "Authentification"](../../diagrammes/use cases/authentification/uc-authentification.png)
+![diagramme du use case "Authentification"](../../diagrammes/use%20cases/authentification/uc-authentification.png)
