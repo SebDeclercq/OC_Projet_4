@@ -17,7 +17,7 @@ Afin de proposer une version graphique listant les acteurs, se référer au [dia
     - [Le pizzaiolo](#le-pizzaiolo)
     - [L'opérateur de commandes](#l-op-rateur-de-commandes)
     - [Le gestionnaire](#le-gestionnaire)
-    - [L'administrateur](#l-administrateur)
+    - [L'administrateur système](#l-administrateur-systeme)
 - [Liste des acteurs secondaires](#liste-des-acteurs-secondaires)
     - [Le système bancaire (*banking system*)](#le-syst-me-bancaire-banking-system-)
 - [Liste des rôles](#liste-des-r-les)
@@ -25,6 +25,7 @@ Afin de proposer une version graphique listant les acteurs, se référer au [dia
     - [L'utilisateur externe](#l-utilisateur-externe)
     - [L'utilisateur interne](#l-utilisateur-interne)
     - [Le passeur de commandes](#le-passeur-de-commandes)
+    - [L'administrateur](#l-administrateur)
 - [Diagramme de contexte](#diagramme-de-contexte)
 
 
@@ -52,7 +53,7 @@ UC identifiés :
 - Authentification (connexion)
 - Consultation (catalogue, commandes)
 - Commandes (constitution d'un panier, création, modification, suppression, suivi)
-- Compte utilisateur (gestion de son propre compte)
+- Gestion (compte utilisateur personnel)
 
 Rôles associés :
 - [Utilisateur externe](#l-utilisateur-externe)
@@ -109,10 +110,11 @@ UC identifiés :
 Rôles associés :
 - [Utilisateur interne](#l-utilisateur-interne)
 - [Passeur de commandes](#le-passeur-de-commandes)
+- [Administrateur](#l-administrateur)
 
-## L'administrateur
+## L'administrateur système
 
-L'administrateur du SI doit avoir la possibilité d'intervenir sur l'ensemble des parties techniques. Il lui faut donc un accès complet aux modules de gestion ainsi qu'au système dans son intégralité (serveur, code source, base de données, etc.)
+L'administrateur du SI (SysAdmin dans le diagramme) doit avoir la possibilité d'intervenir sur l'ensemble des parties techniques. Il lui faut donc un accès complet aux modules de gestion ainsi qu'au système dans son intégralité (serveur, code source, base de données, etc.)
 
 UC identifiés :
 - Authentification (connexion)
@@ -121,6 +123,7 @@ UC identifiés :
 
 Rôle associé :
 - [Utilisateur interne](#l-utilisateur-interne)
+- [Administrateur](#l-administrateur)
 
 # Liste des acteurs secondaires
 
@@ -147,6 +150,10 @@ L'utilisateur interne est un employé du restaurant. Il regroupe un panel d'acte
 ## Le passeur de commandes
 
 Le "passeur de commandes" (faute de meilleur nom) correspond à tout acteur accédant au module de gestion des commandes. Ce rôle permet la généralisation des étapes à suivre, de la constitution du panier au paiement, en passant par le suivi de commande. Il peut s'agir d'un utilisateur externe (ex. client) ou interne (ex. opérateur de commandes).
+
+## L'administrateur
+
+L'administrateur est un compte ayant des droits étendus, permettant l'ensemble des actions de gestion.
 
 # Diagramme de contexte
 ![diagramme de contexte](../diagrammes/diag-contexte.png)
