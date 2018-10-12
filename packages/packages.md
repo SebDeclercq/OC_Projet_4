@@ -6,9 +6,9 @@ Ce document inclut une description succincte de chaque *package* et isole les ca
 
 Les objectifs de ce document sont multiples. Il permettra tout d'abord d'identifier l'ensemble des UC et des *packages* mais également de les lier aux rôles et acteurs identifiés pour le système (se référer au document sur [les acteurs et les rôles](../acteurs/acteurs-rôles.md)). Une première identification des UC a été effectuée dans ce document.
 
-Les rôles seront mentionnés **en gras**, tandis que les acteurs seront *en italique*.
+Les acteurs généralistes seront mentionnés **en gras**, tandis que les acteurs spécialisés seront *en italique*.
 
-Chaque UC identifié sera décrit en détail dans un fichier séparé, présent dans le même dossier que ce document.
+Chaque *package* sera décrit dans un dossier dédié, qui contiendra tous les cas d'utilisation déterminés.
 
 Afin de proposer une version graphique listant les *packages*, se référer au [diagramme de *packages*](../diagrammes/diag-packages.png). Celui-ci est également disponible en fin de fichier.
 
@@ -22,18 +22,6 @@ Ce *package* regroupe l'ensemble des UC concernant l'authentification des utilis
 |-------------------|--------------------------------------|
 | Inscription       | **Utilisateur**                      |
 | Connexion         | **Utilisateur interne**              |
-
-## Consultation
-
-Nous retrouvons ici toutes les opérations de consultation, i.e. les actions de type "lecture seule". Ce *package* inclut les UC suivants :
-
-| Cas d'utilisation                     | Acteur(s) et/ou rôle(s) identifié(s)                 |
-|---------------------------------------|------------------------------------------------------|
-| Consultation du catalogue             | **Utilisateur**                                      |
-| Consultation du stock                 | *Gestionnaire* ; *pizzaiolo*                         |
-| Consultation des recettes             | *Gestionnaire* ; *pizzaiolo*                         |
-| Consultation des commandes            | **Passeur de commande** ; *Gestionnaire* ; *Livreur* |
-| Consultation des comptes utilisateurs | *Client* ; **Utilisateur interne**                   |
 
 ## Gestion
 
@@ -54,6 +42,7 @@ Le *package* commandes concerne l'ensemble des opérations liées à la commande
 
 | Cas d'utilisation           | Acteur(s) et/ou rôle(s) identifié(s)          |
 |-----------------------------|-----------------------------------------------|
+| Consultation des commandes  | **Passeur de commandes**, *Livreur*           |
 | Constitution d'un panier    | *Client potentiel* ; **Passeur de commandes** |
 | Création d'une commande     | **Passeur de commandes**                      |
 | Modification d'une commande | **Passeur de commandes**                      |

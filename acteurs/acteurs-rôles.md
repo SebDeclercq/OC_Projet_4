@@ -2,7 +2,7 @@
 
 Le présent fichier a pour objectif d'identifier les acteurs présents dans le contexte de la pizzeria. Il inclut une description succincte de chaque acteur et isole les cas d'utilisation attribués à chacun d'entre eux. Une identification des rôles sera menée afin de lister l'ensemble des éléments utiles à la constitution d'un diagramme de contexte et d'un diagramme de *packages*.
 
-Les acteurs constituent en eux-mêmes les personnes réelles identifiées, tandis que les rôles permettent de regrouper les actions communes à ces acteurs en ensembles cohérents, plus utiles à la description des actions.
+Les acteurs constituent en eux-mêmes les personnes réelles identifiées, tandis que les rôles permettent de regrouper les actions communes à ces acteurs en ensembles cohérents, plus utiles à la description des actions. Les rôles sont donc des généralisations.
 
 La collecte des rôles correspond à une volonté de faciliter la lecture des prochains diagrammes : les acteurs ne seront plus spécialement représentés, si leur rôle suffit à expliciter un package ou un cas d'utilisation.
 
@@ -36,7 +36,6 @@ Afin de proposer une version graphique listant les acteurs, se référer au [dia
 Le client potentiel correspond à une personne externe, non identifiée par le système. Ses rôles sont très limités, à savoir la simple consultation du catalogue de vente ainsi qu'un accès à une page d'inscription, lui permettant ainsi de s'enregistrer en vue d'une connexion. Il doit pouvoir se constituer un panier, même sans être loggé, afin de lui offrir une interface utilisateur interactive.
 
 UC identifiés :
-- Consultation (catalogue)
 - Authentification (inscription)
 - Commandes (constitution d'un panier)
 
@@ -51,8 +50,7 @@ Cet acteur est assez similaire au [client potentiel](#le-client-potentiel), en �
 
 UC identifiés :
 - Authentification (connexion)
-- Consultation (catalogue, commandes)
-- Commandes (constitution d'un panier, création, modification, suppression, suivi)
+- Commandes (consultation, constitution d'un panier, création, modification, suppression, suivi)
 - Gestion (compte utilisateur personnel)
 
 Rôles associés :
@@ -65,8 +63,7 @@ Le livreur doit pouvoir se connecter en tant qu'utilisateur interne du système.
 
 UC identifiés :
 - Authentification (connexion)
-- Consultation (commandes)
-- Commandes (notification de fin de livraison)
+- Commandes (consultation, notification de fin de livraison)
 
 Rôle associé :
 - [Utilisateur interne](#l-utilisateur-interne)
@@ -77,8 +74,7 @@ Le pizzaiolo doit pouvoir s'identifier au système et consulter le catalogue de 
 
 UC identifiés :
 - Authentification (connexion)
-- Consultation (recettes, stock)
-- Gestion (recettes : saisie)
+- Gestion (recettes, consultation du stock)
 
 Rôle associé :
 - [Utilisateur interne](#l-utilisateur-interne)
@@ -89,7 +85,6 @@ L'opérateur de commandes doit pouvoir se connecter et gérer les commandes de l
 
 UC identifiés :
 - Authentification (connexion)
-- Consultation (comptes utilisateurs, catalogue)
 - Gestion (comptes utilisateurs)
 - Commandes (gestion complète)
 
@@ -103,7 +98,6 @@ Le gestionnaire peut être considéré comme un superviseur du système. Il lui 
 
 UC identifiés :
 - Authentification (connexion)
-- Consultation (complète)
 - Commandes (gestion complète)
 - Gestion (complète)
 
