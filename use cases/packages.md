@@ -27,13 +27,13 @@ Ce *package* regroupe l'ensemble des UC concernant l'authentification des utilis
 
 Nous retrouvons ici toutes les opérations de consultation, i.e. les actions de type "lecture seule". Ce *package* inclut les UC suivants :
 
-| Cas d'utilisation                     | Acteur(s) et/ou rôle(s) identifié(s)       |
-|---------------------------------------|--------------------------------------------|
-| Consultation du catalogue             | **Utilisateur**                            |
-| Consultation du stock                 | *Gestionnaire* ; *pizzaiolo*               |
-| Consultation des recettes             | *Gestionnaire* ; *pizzaiolo*               |
-| Consultation des commandes            | **Passeur de commande** ; *Gestionnaire*   |
-| Consultation des comptes utilisateurs | *Client* ; **Utilisateur interne**         |
+| Cas d'utilisation                     | Acteur(s) et/ou rôle(s) identifié(s)                 |
+|---------------------------------------|------------------------------------------------------|
+| Consultation du catalogue             | **Utilisateur**                                      |
+| Consultation du stock                 | *Gestionnaire* ; *pizzaiolo*                         |
+| Consultation des recettes             | *Gestionnaire* ; *pizzaiolo*                         |
+| Consultation des commandes            | **Passeur de commande** ; *Gestionnaire* ; *Livreur* |
+| Consultation des comptes utilisateurs | *Client* ; **Utilisateur interne**                   |
 
 ## Gestion
 
