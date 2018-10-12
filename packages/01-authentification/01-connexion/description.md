@@ -11,7 +11,3 @@ __Point d'extension__ : si l'utilisateur ne se souvient plus de ses identifiants
 __Point d'extension__ : Si l'utilisateur n'a pas encore de compte, se référer au cas "inscription".
 
 À noter que toutes les actions menées avant la connexion doivent être consignées dans un cookie afin d'en garantir la bonne sauvegarde et permettre l'exploitation de ces informations ultérieurement.
-
-## Diagramme de cas
-
-![diagramme du use case "Authentification"](../../../diagrammes/use%20cases/authentification/uc-authentification.png)
