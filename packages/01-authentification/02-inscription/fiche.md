@@ -35,3 +35,7 @@ L'utilisateur veut s'inscrire.
 2. Un compte associé à l'email existe déjà.
 
    __Point d'extension__ : mot de passe oublié.
+
+
+2. 1. Le formulaire soumis est indûment complété
+   2. Le système retourne à la page d'inscription en y réinsérant les valeurs saisies, en prenant soin de signaler en rouge le(s) champ(s) erroné(s).
