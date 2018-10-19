@@ -34,6 +34,7 @@ Un utilisateur décide de consulter, modifier ou supprimer son compte utilisateu
    4. 1. Si l'opération échoue, il faudra afficher le formulaire avec les informations saisies et les champs erronés mis en évidence pour en faciliter la correction.
       2. Si l'opération est un succès, rediriger l'utilisateur vers la page de consultation.
 
+<!-- -->
 
 3. 1. L'utilisateur souhaite supprimer son compte.
    2. Dans un formulaire dédié, il saisit deux fois son mot de passe et fournit une éventuelle explication.

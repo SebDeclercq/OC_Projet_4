@@ -39,6 +39,7 @@ Un utilisateur aux droits étendus doit créer, modifier ou supprimer un compte 
    4. 1. Si l'opération échoue, il faudra afficher le formulaire avec les informations saisies et les champs erronés mis en évidence pour en faciliter la correction.
       2. Si l'opération est un succès, rediriger l'utilisateur vers la page de consultation.
 
+<!-- -->
 
 2. 1. L'utilisateur souhaite modifier un compte.
    2. Il édite les informations qu'il désire grâce à un formulaire.
@@ -46,6 +47,7 @@ Un utilisateur aux droits étendus doit créer, modifier ou supprimer un compte 
    4. 1. Si l'opération échoue, il faudra afficher le formulaire avec les informations saisies et les champs erronés mis en évidence pour en faciliter la correction.
       2. Si l'opération est un succès, rediriger l'utilisateur vers la page de consultation.
 
+<!-- -->
 
 2. 1. L'utilisateur souhaite supprimer un compte.
    2. Dans un formulaire dédié, il saisit deux fois son mot de passe et fournit une éventuelle explication.
