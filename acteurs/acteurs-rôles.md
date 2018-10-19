@@ -25,6 +25,7 @@ Afin de proposer une version graphique listant les acteurs, se référer au [dia
     - [L'utilisateur externe](#l-utilisateur-externe)
     - [L'utilisateur interne](#l-utilisateur-interne)
     - [Le passeur de commandes](#le-passeur-de-commandes)
+    - [L'employé](#l-employe)
     - [L'administrateur](#l-administrateur)
 - [Diagramme de contexte](#diagramme-de-contexte)
 
@@ -144,6 +145,10 @@ L'utilisateur interne est un employé du restaurant. Il regroupe un panel d'acte
 ## Le passeur de commandes
 
 Le "passeur de commandes" (faute de meilleur nom) correspond à tout acteur accédant au module de gestion des commandes. Ce rôle permet la généralisation des étapes à suivre, de la constitution du panier au paiement, en passant par le suivi de commande. Il peut s'agir d'un utilisateur externe (ex. client) ou interne (ex. opérateur de commandes).
+
+## L'employé
+
+L'employé est un membre de l'équipe de la pizzeria.
 
 ## L'administrateur
 

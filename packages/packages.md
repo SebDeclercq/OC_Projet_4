@@ -32,7 +32,7 @@ Les opérations de gestion sont multiples et concernent l'ensemble des élément
 | Gestion de son propre compte utilisateur | **Utilisateur interne**                       |
 | Gestion des comptes utilisateurs         | **Administrateur** ; *Opérateur de commandes* |
 | Gestion des recettes                     | **Administrateur** ; *Pizzaiolo*              |
-| Gestion des stocks                       | **Administrateur**                            |
+| Gestion des livraisons des fournisseurs  | **Employé**                                   |
 
 ## Commandes
 
