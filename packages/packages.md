@@ -50,17 +50,6 @@ Le *package* commandes concerne l'ensemble des opérations liées à la commande
 | Suivi de commandes          | **Passeur de commandes** ; *Livreur*          |
 | Notification de livraison   | *Livreur*
 
-## Administration système
-
-L'administration système regroupe l'ensemble des opérations ayant trait à la partie informatique du système.
-
-| Cas d'utilisation                    | Acteur(s) et/ou rôle(s) identifié(s) |
-|--------------------------------------|--------------------------------------|
-| Administration du serveur            | **Administrateur**                   |
-| Administration du serveur web        | **Administrateur**                   |
-| Administration de la base de données | **Administrateur**                   |
-| Administration du code source        | **Administrateur**                   |
-
 
 # Diagramme de *packages*
 

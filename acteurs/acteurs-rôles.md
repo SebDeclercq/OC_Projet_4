@@ -17,7 +17,6 @@ Afin de proposer une version graphique listant les acteurs, se référer au [dia
     - [Le pizzaiolo](#le-pizzaiolo)
     - [L'opérateur de commandes](#l-op-rateur-de-commandes)
     - [Le gestionnaire](#le-gestionnaire)
-    - [L'administrateur système](#l-administrateur-systeme)
 - [Liste des acteurs secondaires](#liste-des-acteurs-secondaires)
     - [Le système bancaire (*banking system*)](#le-syst-me-bancaire-banking-system-)
 - [Liste des rôles](#liste-des-r-les)
@@ -26,7 +25,6 @@ Afin de proposer une version graphique listant les acteurs, se référer au [dia
     - [L'utilisateur interne](#l-utilisateur-interne)
     - [Le passeur de commandes](#le-passeur-de-commandes)
     - [L'employé](#l-employe)
-    - [L'administrateur](#l-administrateur)
 - [Diagramme de contexte](#diagramme-de-contexte)
 
 
@@ -107,19 +105,6 @@ Rôles associés :
 - [Passeur de commandes](#le-passeur-de-commandes)
 - [Administrateur](#l-administrateur)
 
-## L'administrateur système
-
-L'administrateur du SI (SysAdmin dans le diagramme) doit avoir la possibilité d'intervenir sur l'ensemble des parties techniques. Il lui faut donc un accès complet aux modules de gestion ainsi qu'au système dans son intégralité (serveur, code source, base de données, etc.)
-
-UC identifiés :
-- Authentification (connexion)
-- Gestion (complète)
-- Administration système
-
-Rôle associé :
-- [Utilisateur interne](#l-utilisateur-interne)
-- [Administrateur](#l-administrateur)
-
 # Liste des acteurs secondaires
 
 ## Le système bancaire (*banking system*)
@@ -149,10 +134,6 @@ Le "passeur de commandes" (faute de meilleur nom) correspond à tout acteur acc�
 ## L'employé
 
 L'employé est un membre de l'équipe de la pizzeria.
-
-## L'administrateur
-
-L'administrateur est un compte ayant des droits étendus, permettant l'ensemble des actions de gestion.
 
 # Diagramme de contexte
 ![diagramme de contexte](../diagrammes/diag-contexte.png)
