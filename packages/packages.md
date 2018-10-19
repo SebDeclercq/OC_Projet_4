@@ -27,12 +27,12 @@ Ce *package* regroupe l'ensemble des UC concernant l'authentification des utilis
 
 Les opérations de gestion sont multiples et concernent l'ensemble des éléments constitutifs du système. Les autorisations de gestion diffèrent selon les acteurs.
 
-| Cas d'utilisation                        | Acteur(s) et/ou rôle(s) identifié(s) |
-|------------------------------------------|--------------------------------------|
-| Gestion de son propre compte utilisateur | **Utilisateur interne**              |
-| Gestion des comptes utilisateurs         | **Administrateur**                   |
-| Gestion des recettes                     | **Administrateur** ; *Pizzaiolo*     |
-| Gestion des stocks                       | **Administrateur**                   |
+| Cas d'utilisation                        | Acteur(s) et/ou rôle(s) identifié(s)          |
+|------------------------------------------|-----------------------------------------------|
+| Gestion de son propre compte utilisateur | **Utilisateur interne**                       |
+| Gestion des comptes utilisateurs         | **Administrateur** ; *Opérateur de commandes* |
+| Gestion des recettes                     | **Administrateur** ; *Pizzaiolo*              |
+| Gestion des stocks                       | **Administrateur**                            |
 
 ## Commandes
 
