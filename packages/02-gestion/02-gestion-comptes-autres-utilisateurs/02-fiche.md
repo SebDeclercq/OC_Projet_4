@@ -36,13 +36,15 @@ Un utilisateur aux droits étendus doit créer, modifier ou supprimer un compte 
 2. 1. L'utilisateur souhaite créer un compte.
    2. Il complète le formulaire dédié avec les informations requises.
    3. A la soumission, le système contrôle la validité des nouvelles données, les enregistre ou les refuse
-   4. et redirige l'utilisateur vers la page de gestion des comptes en l'alertant du succès ou de l'échec de l'opération.
+   4. 1. Si l'opération échoue, il faudra afficher le formulaire avec les informations saisies et les champs erronés mis en évidence pour en faciliter la correction.
+      2. Si l'opération est un succès, rediriger l'utilisateur vers la page de consultation.
 
 
 2. 1. L'utilisateur souhaite modifier un compte.
    2. Il édite les informations qu'il désire grâce à un formulaire.
    3. A la soumission, le système contrôle la validité des nouvelles données, les enregistre ou les refuse
-   4. et redirige l'utilisateur vers la page de gestion des comptes en l'alertant du succès ou de l'échec de l'opération.
+   4. 1. Si l'opération échoue, il faudra afficher le formulaire avec les informations saisies et les champs erronés mis en évidence pour en faciliter la correction.
+      2. Si l'opération est un succès, rediriger l'utilisateur vers la page de consultation.
 
 
 2. 1. L'utilisateur souhaite supprimer un compte.
