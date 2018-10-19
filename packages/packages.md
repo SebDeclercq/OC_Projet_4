@@ -56,10 +56,8 @@ L'administration système regroupe l'ensemble des opérations ayant trait à la 
 
 | Cas d'utilisation                    | Acteur(s) et/ou rôle(s) identifié(s) |
 |--------------------------------------|--------------------------------------|
-| Administration du serveur            | **Administrateur**                   |
-| Administration du serveur web        | **Administrateur**                   |
-| Administration de la base de données | **Administrateur**                   |
-| Administration du code source        | **Administrateur**                   |
+| Administration système               | *SysAdmin*                           |
+| Manipulation de la base de données   | *SysAdmin*                           |
 
 
 # Diagramme de *packages*
