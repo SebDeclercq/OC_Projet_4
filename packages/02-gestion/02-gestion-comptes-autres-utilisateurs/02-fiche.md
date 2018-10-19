@@ -4,6 +4,8 @@
 
 Un utilisateur aux droits étendus doit pouvoir manipuler les comptes d'autres utilisateurs.
 
+Ce scénario étend l'UC 02-01 *"gestion des comptes utilisateurs"* en tant que __point d'extension__.
+
 ## Prérequis / condition(s) initiale(s)
 
 L'utilisateur possède des droits étendus.
