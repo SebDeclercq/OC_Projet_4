@@ -42,13 +42,9 @@ Le *package* commandes concerne l'ensemble des opérations liées à la commande
 
 | Cas d'utilisation           | Acteur(s) et/ou rôle(s) identifié(s)          |
 |-----------------------------|-----------------------------------------------|
-| Consultation des commandes  | **Passeur de commandes**, *Livreur*           |
-| Constitution d'un panier    | *Client potentiel* ; **Passeur de commandes** |
 | Création d'une commande     | **Passeur de commandes**                      |
-| Modification d'une commande | **Passeur de commandes**                      |
-| Suppression d'une commande  | **Passeur de commandes**                      |
 | Suivi de commandes          | **Passeur de commandes** ; *Livreur*          |
-| Notification de livraison   | *Livreur*
+| Livraison                   | *Livreur*
 
 
 # Diagramme de *packages*
