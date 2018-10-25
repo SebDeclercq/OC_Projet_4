@@ -6,4 +6,6 @@ Pour les commandes en cours, il est nécessaire de permettre au client de suivre
 
 Si la commande n'est pas trop avancée et qu'elle n'a pas encore été prise en charge par un pizzaiolo, il aura le droit de la modifier ou de la supprimer. Si la livraison n'est pas encore en cours, il pourra modifier son adresse.
 
+Lorsque la commande est modifiée ou annulée, il faudra déduire des stocks disponibles les éléments consommés et/ou rajouter les éléments à nouveau disponibles, sur base de la description fournie dans les recettes. Un contrôle automatique devra ensuite être fait afin de mettre à jour le catalogue sur base des denrées disponibles.
+
 Les opérateurs de commandes doivent avoir les mêmes droits, tout comme les gestionnaires.

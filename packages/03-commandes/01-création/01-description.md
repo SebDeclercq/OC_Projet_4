@@ -7,3 +7,5 @@ Lorsque l'utilisateur a constitué son panier, il doit alors pouvoir créer sa c
 Une fois connecté, l'utilisateur vérifie le contenu de son panier, ses informations personnelles (type adresse de livraison) et valide sa commande. A la validation, il lui est alors demandé de choisir son mode de paiement. S'il décide de payer par carte, il sera alors rediriger vers un système de gestion de paiement bancaire externe.
 
 A la fin de ces opérations, il recevra le numéro de sa commande et pourra la retrouver dans les sections dédiés aux commandes en cours dans son espace personnel.
+
+Lorsque la commande sera validée, il faudra déduire des stocks disponibles les éléments consommés, sur base de la description fournie dans les recettes. Un contrôle automatique devra ensuite être fait afin de désactiver les produits qui ne peuvent plus être vendus sur le catalogue si les stocks venaient à manquer.
