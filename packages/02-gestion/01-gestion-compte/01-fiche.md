@@ -47,6 +47,6 @@ Un utilisateur décide de consulter, modifier ou supprimer son compte utilisateu
     __Point d'extension__ : créer ou modifier le compte d'un autre utilisateur.
 
 
-1. L'utilisateur est un administrateur.
+1. L'utilisateur est un gestionnaire.
 
     __Point d'extension__ : créer, modifier ou supprimer n'importe quel compte utilisateur.
