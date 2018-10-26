@@ -28,7 +28,7 @@ Un utilisateur décide de consulter, créer ou modifier une recette de cuisine.
 
 ## Étape par étape
 
-1. L'utilisateur est connecté et se rend sur la page de gestion des comptes.
+1. L'utilisateur est connecté et se rend sur la page de gestion des recettes.
 2. L'utilisateur mène les actions qu'il désire.
 
 ## Scénarios alternatifs

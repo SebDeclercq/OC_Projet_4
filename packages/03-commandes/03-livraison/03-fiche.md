@@ -30,7 +30,7 @@ La commande est prête.
 2. Le livreur se rend chez le client et délivre la commande.
 3. Le client signe dans l'application et le statut de la commande passe à "terminée".
 
-## Extension
+## Scénario(s) alternatif(s)
 
 2. 1. Si le client n'a pas payé en ligne.
    2. Le livreur encaisse le paiement (chèque ou espèce).

@@ -9,5 +9,3 @@ En parfaite adéquation avec le récent GRPD, il est important que l'utilisateur
 L'utilisateur doit également être à même de supprimer entièrement son compte s'il le désire.
 
 __Point d'extension__ : les opérateurs de commandes doivent être à même de créer un nouveau compte ou de modifier les informations d'un compte existant, en cas de commande téléphonique.
-
-__Point d'extension__ : les administrateurs (généralisation des gestionnaires et sysadmin) doivent avoir des droits d'accès étendus afin de permettre la gestion globale des comptes (consultation, création, modification, suppression)

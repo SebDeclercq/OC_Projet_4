@@ -16,7 +16,7 @@ Garantir la validité des informations utilisateurs en base.
 
 ## Acteur(s) principal(aux)
 
-Opérateur de commande ou administrateur.
+*Opérateur de commande* ou *gestionnaire*.
 
 ## Acteur(s) secondaire(s)
 

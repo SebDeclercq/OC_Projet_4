@@ -125,7 +125,7 @@ L'utilisateur externe correspond aux personnes ne faisant pas partie de l'équip
 
 ## L'utilisateur interne
 
-L'utilisateur interne est un employé du restaurant. Il regroupe un panel d'acteurs et de rôles. Chaque utilisateur interne doit *a minima* pouvoir s'identifier sur le site et gérer son compte.
+L'utilisateur interne est un employé du restaurant ou un client inscrit. Il regroupe un panel d'acteurs et de rôles. Chaque utilisateur interne doit *a minima* pouvoir s'identifier sur le site et gérer son compte.
 
 ## Le passeur de commandes
 

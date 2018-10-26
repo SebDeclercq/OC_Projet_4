@@ -32,7 +32,7 @@ Un client ou un futur client souhaite passer commande.
 4. Le client choisit son mode de paiement et soumet sa commande.
 5. La commande est validée. Les stocks sont modifiés automatiquement sur base de la commande, de même que le catalogue en ligne.
 
-## Extension
+## Scénario(s) alternatif(s)
 
 3. 1. Les informations sont erronées.
    2. Le client les corrige et celles-ci sont mises à jour dans son compte utilisateur.
