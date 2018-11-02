@@ -6,8 +6,8 @@ Pour ce faire, l'utilisateur doit tout d'abord se rendre sur une page permettant
 
 À la soumission du formulaire, l'utilisateur est connecté si le système valide les valeurs saisies.
 
-__Point d'extension__ : si l'utilisateur ne se souvient plus de ses identifiants, se référer au cas "mot de passe oublié".
+__Point d'extension__ : Si l'utilisateur n'a pas encore de compte, se référer au cas "inscription" (**UC 01-02**).
 
-__Point d'extension__ : Si l'utilisateur n'a pas encore de compte, se référer au cas "inscription".
+__Point d'extension__ : si l'utilisateur ne se souvient plus de ses identifiants, se référer au cas "mot de passe oublié" (**UC 01-03**).
 
 À noter que toutes les actions menées avant la connexion doivent être consignées dans un cookie afin d'en garantir la bonne sauvegarde et permettre l'exploitation de ces informations ultérieurement.

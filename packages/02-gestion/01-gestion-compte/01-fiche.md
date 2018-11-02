@@ -42,11 +42,6 @@ Un utilisateur décide de consulter, modifier ou supprimer son compte utilisateu
 
 ## Cas particuliers
 
-1. L'utilisateur est un opérateur de commandes.
+1. L'utilisateur est un opérateur de commandes ou un gestionnaire.
 
-    __Point d'extension__ : créer ou modifier le compte d'un autre utilisateur.
-
-
-1. L'utilisateur est un gestionnaire.
-
-    __Point d'extension__ : créer, modifier ou supprimer n'importe quel compte utilisateur.
+    __Point d'extension__ : créer, modifier ou supprimer n'importe quel compte utilisateur (**UC 02-02**).

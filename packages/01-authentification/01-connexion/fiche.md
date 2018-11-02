@@ -35,12 +35,12 @@ L'utilisateur veut se connecter au site web et se rend sur la page d'authentific
 
 3. L'utilisateur n'a pas encore de compte.
 
-  __Point d'extension__ : s'inscrire.
+  __Point d'extension__ : s'inscrire (**UC 01-02**).
 
 
 3. L'utilisateur a oublié ses identifiants.
 
-   __Point d'extension__ : mot de passe oublié.
+   __Point d'extension__ : mot de passe oublié (**UC 01-03**).
 
 
 4. 1. Les informations fournies sont erronées.

@@ -34,7 +34,7 @@ L'utilisateur veut s'inscrire.
 
 2. Un compte associé à l'email existe déjà.
 
-   __Point d'extension__ : mot de passe oublié.
+   __Point d'extension__ : mot de passe oublié (**UC 01-03**).
 
 
 2. 1. Le formulaire soumis est indûment complété

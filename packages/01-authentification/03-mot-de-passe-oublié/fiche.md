@@ -34,4 +34,4 @@ L'utilisateur a oublié ses identifiants.
 
 2. L'email n'existe pas dans la base de données.
 
-   __Point d'extension__ : s'inscrire.
+   __Point d'extension__ : s'inscrire (**UC 01-02**).
